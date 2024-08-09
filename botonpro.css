@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "raleway mono", "monospace";
+}
+:root{
+  --beige:#F5FFB7;
+  --amarillo:#f7dc6f;
+  --moradoo:#c777e9;
+  --rosa:#f5b7b1;
+  --marron: #977237;
+  --morado:#5c1d97;
+  --rosado:#9e1845;
+  --verde:#00ff37;
+  --verdeo:#049924;
+  --blanco:#fff;
+  --negro:#000;
+  --rojo:#8a0a01;
+}
+body{
+  display: block;
+  background-image: url(fondocut.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* primer grupo de botones */
+.grupo__botones{
+  display:flex;
+  width: 430px;
+  height: 30px;
+  justify-content: space-around;
+  margin: 34px  auto;
+}
+.boton--amarillo{
+  background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.boton--amarillo:hover{
+   background-color: var(--beige);
+   color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.boton--morado{
+  background-color: var(--moradoo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+}
+.boton--morado:hover{
+   background-color: var(--beige);
+   color: var(--moradoo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.boton--verde{
+  background-color: var(--verdeo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.boton--verde:hover{
+   background-color: var(--beige);
+   color: var(--verdeo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.boton--rosado{
+  background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+     transition: transform 0.2s ease;
+}
+.boton--rosado:hover{
+   background-color: var(--beige);
+   color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+button{
+    color: var(--blanco);
+     display: inline-block;
+    text-align: center;
+    align-items:flex-start; 
+}
+.button--border{
+  border-radius: 50px;
+}
+/* segundo grupo de botones */
+.grupo__boton{
+  display: inline-grid;
+  width: 400px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 18px  400px auto;
+}
+
+.boton--marron{
+    background-color: var(--marron);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.boton--marron:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+    
+}
+.boton--rosa{
+  background-color: var(--rosa);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.boton--rosa:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.boton--negro{
+ background-color: var(--negro);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.boton--negro:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.boton--verd{
+ background-color: var(--verdeo);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.boton--verd:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+/* tercer grupo de botones */
+.agrupacion__boton{
+  display: inline-grid;
+  width: 400px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 18px 600px auto;
+  
+}
+.boton--rosadop{
+    background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.boton--rosadop:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.boton--moradod{
+    background-color: var(--morado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 2s, transform 2s;
+}
+.boton--moradod:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.boton--verdeo{
+    background-color: var(--verde);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.boton--verdeo:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+
+.boton--amarillou{
+    background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.boton--amarillou:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.botones--border{
+  border-radius: 15px;
+}
+
+/* cuarto grupo de botones */
+.grup__botones{
+  display:flex;
+  width: 430px;
+  height: 30px;
+  justify-content: space-around;
+  margin: 50px  auto;
+}
+.botton--negrow{
+  background-color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+.botton--negrow:hover{
+   background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.botton--amarillow{
+  background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+.botton--amarillow:hover{
+   background-color: var(--beige);
+   color: var(--amarillo);
+    border: none;
+    cursor: pointer;
+     width: 100px;
+    height: 100px;
+    
+}
+.botton--marronw{
+  background-color: var(--marron);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 4s;
+    
+}
+.botton--marronw:hover{
+   background-color: var(--beige);
+   color: var(--marron);
+    border: none;
+    cursor: pointer;
+   width: 100px;
+    height: 100px;
+    
+}
+
+.botton--rosaw{
+  background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 4s;
+}
+.botton--rosaw:hover{
+   background-color: var(--beige);
+   color: var(--rosado);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    
+}
+.botton{
+    color: var(--blanco);
+     display: inline-block;
+    text-align: center;
+    align-items:flex-start; 
+}
+
+.botton--border{
+  border-radius: 5px;
+}
+
+  .close-button {
+  position: absolute;
+   top: 10px;
+  right: 10px;
+  background-color: transparent;
+   border: none;
+  font-size: 24px;
+  color: var(--rojo); 
+  cursor: pointer;
+}

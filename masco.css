@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "raleway mono", "monospace";
+}
+:root{
+  --beige: #F5FFB7;
+  --amarillo: #f7dc6f;
+  --moradoo: #c777e9;
+  --rosa: #f5b7b1;
+  --marron: #977237;
+  --morado: #5c1d97;
+  --rosado: #9e1845;
+  --verde: #00ff37;
+  --verdeo: #049924;
+  --blanco: #fff;
+  --negro: #000;
+  --rojo: #8a0a01;
+}
+
+body{
+  margin: 0;
+  background-image: url(fondocut.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.card--blanca{
+    flex-direction: column;
+    display: flex;
+    width: 340px;
+    border-radius: 10px;
+    padding: 30px;
+    object-fit: cover;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    background-position: center;
+    background-size: 50px;
+    background-color: var(--blanco);
+}
+
+.card--amarillo{
+   flex-direction: column;
+    display: flex;
+    width: 340px;
+    border-radius: 10px;
+    padding: 30px;
+    object-fit: cover;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    background-position: center;
+    background-size: 50px;
+    background-color: var(--blanco);
+
+}
+.card--amarillo:hover{
+    background-color: var(--amarillo);
+}
+.boton--blanca{
+  margin: 10px;
+}
+.card--rosa{
+    flex-direction: column;
+    display: flex;
+    width: 340px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    background-position: center;
+    background-size: 60px;
+    background-color: var(--rosa);
+    transition: transform 0.3s ease;
+}
+.contenedor--rosa{
+    padding: 20px;
+}
+
+.card--rosa:hover{
+    transform: scale(1.1);
+}
+.card--rojo{
+    flex-direction: column;
+    display: flex;
+    width: 340px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    background-position: center;
+    background-size: 60px;
+    cursor: not-allowed;
+    background-color: var(--blanco);
+}
+
+.card--rojo:hover {
+    background-color: var(--rojo);
+}
+
+.boton--blanco{
+    cursor: not-allowed;
+    background-color:var(--blanco);
+}
+.boton--blanco:hover{
+    background-color:var(--rojo);
+} **/
+
+.card--rojo:hover .boton--blanco:hover{
+    background-color:var(--rojo);
+}
+  .close-button {
+  position: absolute;
+   top: 10px;
+  right: 10px;
+  background-color: transparent;
+   border: none;
+  font-size: 24px;
+  color: var(--rojo); 
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url();
+:root{
+  --beige: #F5FFB7;
+  --amarillo: #f7dc6f;
+  --moradoo: #c777e9;
+  --rosa: #f5b7b1;
+  --marron: #977237;
+  --morado: #5c1d97;
+  --rosado: #9e1845;
+  --verde: #00ff37;
+  --verdeo: #049924;
+  --blanco: #fff;
+  --negro: #000;
+  --rojo: #8a0a01;
+}
+
+body{
+  display: block;
+  background-image: url(fondocut.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.insignias{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.insignia__texto{
+  display: inline-block ;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: var(--beige);
+  color: var(--marron);
+  
+}
+.insignia__texto--modi1{
+  background-color: var(--rosa);
+}
+.insignia__texto--modi1:hover{
+  background-color: var(--rosado);
+  cursor: pointer;
+}
+.insignia__texto--modi2{
+  background-color: var(--verdeo);
+}
+.insignia__texto--modi2:hover{
+  cursor: pointer;
+  background-color: var(--verde);
+  border-radius: 1rem;
+  transition: 2s;
+  font-size: 85%;
+}
+.insignia__texto--modi3{
+  background-color: var(--negro);
+}
+.insignia__texto--modi3:hover{
+  cursor: pointer;
+  background-color: var(--blanco);
+  color: var(--negro);
+  border: 1px solid var(--negro);
+  transition: 1s;
+}
+  .close-button {
+  position: absolute;
+   top: 10px;
+  right: 10px;
+  background-color: transparent;
+   border: none;
+  font-size: 24px;
+  color: var(--rojo); 
+  cursor: pointer;
+}

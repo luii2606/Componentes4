@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "raleway mono", "monospace";
+}
+
+:root{
+  --beige: #F5FFB7;
+  --amarillo: #f7dc6f;
+  --moradoo: #c777e9;
+  --rosa: #f5b7b1;
+  --marron: #977237;
+  --morado: #5c1d97;
+  --rosado: #9e1845;
+  --verde: #00ff37;
+  --verdeo: #049924;
+  --blanco: #fff;
+  --negro: #000;
+  --rojo: #8a0a01;
+}
+
+body {
+  display: block;
+  background-image: url(fondocut.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+hr {
+  border: solid 1px var(--amarillo);
+}
+
+.alerta--amarillo {
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: center;
+  background-color: var(--marron);
+  border: solid var(--amarillo);
+  color: var(--amarillo);
+  border-radius: 5px;
+  flex-direction: column;
+}
+.alerta__parrafo{
+  display: block;
+  margin-block-start: 1em;
+}
+
+a {
+  color: var(--amarillo2);
+}
+
+.alerta--morado {
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: center;
+  background-color: var(--moradoo);
+  border: solid var(--morado);
+  color: var(--negro);
+  border-radius: 5px;
+  cursor:pointer;
+}
+.alerta--morado:hover{
+  background-color: var(--blanco);
+  color: var(--moradoo);
+}
+
+.material-icons {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.alerta--rosa {
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--rosa);
+  border: solid var(--rosado);
+  color: var(--rosado);
+  border-radius: 5px;
+}
+
+
+.alerta--verde
+ {
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  justify-content: center;
+  background-color: var(--verdeo);
+  border: solid var(--verde);
+  color: var(--verde);
+  border-radius: 5px;
+}
+  .close-button {
+  position: absolute;
+   top: 10px;
+  right: 10px;
+  background-color: transparent;
+   border: none;
+  font-size: 24px;
+  color: var(--rosado); 
+  cursor: pointer;
+}
